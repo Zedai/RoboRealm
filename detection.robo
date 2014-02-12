@@ -1,0 +1,72 @@
+<head><version>2.61.0</version></head>
+<RGB_Filter>
+  <pipe_color>65280</pipe_color>
+  <channel>16</channel>
+  <hue_value>0</hue_value>
+  <hysteresis>0</hysteresis>
+  <min_value>18</min_value>
+  <result_type>3</result_type>
+</RGB_Filter>
+<Fill>
+  <check_border>FALSE</check_border>
+  <fill_with_average_color>TRUE</fill_with_average_color>
+  <four_pixel_connectivity>FALSE</four_pixel_connectivity>
+  <size>50</size>
+</Fill>
+<Threshold>
+  <end>255</end>
+  <hysteresis>0</hysteresis>
+  <start>2</start>
+</Threshold>
+<Population_Threshold>
+  <intensity_threshold>251</intensity_threshold>
+  <population_threshold>17</population_threshold>
+  <window_size>8</window_size>
+</Population_Threshold>
+<Fill>
+  <check_border>FALSE</check_border>
+  <fill_with_average_color>TRUE</fill_with_average_color>
+  <four_pixel_connectivity>FALSE</four_pixel_connectivity>
+  <size>215</size>
+</Fill>
+<Flood_Fill>
+  <border_tolerance>23</border_tolerance>
+  <color_tolerance>113</color_tolerance>
+  <fast_flood_fill>FALSE</fast_flood_fill>
+  <size_tolerance>1000</size_tolerance>
+</Flood_Fill>
+<Min>
+  <filter_size>5</filter_size>
+</Min>
+<Blob_Separate/>
+<Population_Threshold>
+  <intensity_threshold>195</intensity_threshold>
+  <population_threshold>8</population_threshold>
+  <window_size>5</window_size>
+</Population_Threshold>
+<Smooth_Hull>
+  <window_size>19</window_size>
+</Smooth_Hull>
+<Convex_Hull/>
+<Blob_Replace>
+  <color_index>5</color_index>
+  <fill_shape>TRUE</fill_shape>
+  <order_array_on_x>FALSE</order_array_on_x>
+  <order_array_on_y>FALSE</order_array_on_y>
+  <shape_index>12</shape_index>
+  <thickness>2</thickness>
+</Blob_Replace>
+<Sample_Curve>
+  <add_object_delimiter>FALSE</add_object_delimiter>
+  <allow_trackbacks>FALSE</allow_trackbacks>
+  <border_padding>0</border_padding>
+  <include_concave>TRUE</include_concave>
+  <include_convex>TRUE</include_convex>
+  <include_end_points>FALSE</include_end_points>
+  <marker_color_index>6</marker_color_index>
+  <marker_shape_index>6</marker_shape_index>
+  <marker_size>6</marker_size>
+  <min_curvature>40</min_curvature>
+  <precision>15</precision>
+  <sort_based_on_curvature>FALSE</sort_based_on_curvature>
+</Sample_Curve>
